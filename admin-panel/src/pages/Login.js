@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:3000/api';
+const API = 'https://minhaslock-backend.onrender.com/api';
 
 export default function Login({ setToken }) {
   const [form, setForm] = useState({ phone: '', password: '' });

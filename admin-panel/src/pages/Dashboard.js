@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:3000/api';
+const API = 'https://minhaslock-backend.onrender.com/api';
 
 export default function Dashboard({ token, setToken }) {
   const [customers, setCustomers] = useState([]);
